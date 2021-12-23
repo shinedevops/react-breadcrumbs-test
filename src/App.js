@@ -1,12 +1,12 @@
-import StyledBreadCrumb from "./components/StyledBreadCrumb";
+import StyledTag from './components/StyledTag';
 
-const App = () => {
-
-    return (
-        <>
-           <StyledBreadCrumb showArrow /> 
-        </>
-    )
+function App() {
+  
+  return (
+    <div className="App">
+      <StyledTag bold="true" variants="Borded" />
+    </div>
+  );
 }
 
 export default App;

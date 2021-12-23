@@ -1,0 +1,3 @@
+.ant-breadcrumb > span:last-child a {
+    pointer-events: none !important;
+}
